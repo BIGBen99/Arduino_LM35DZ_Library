@@ -39,7 +39,7 @@ a float that represents the temperature in Farenheit
 
 ================================================================================
 # Example
-
+<pre>
 &#35;include &lt;LM35DZ.h&gt;
 
 LM35DZ lm35dz(A0);
@@ -62,3 +62,4 @@ void loop() {
   Serial.println("--------------------");
   delay(5000);
 }
+</pre>
