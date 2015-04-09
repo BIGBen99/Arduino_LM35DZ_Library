@@ -1,2 +1,2 @@
 # Arduino_LM35DZ_Library
-Arduino libeary for LM35DZ temperature sensor
+Arduino library for LM35DZ temperature sensor
