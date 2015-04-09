@@ -11,7 +11,7 @@ Datasheet : http://www.ti.com/lit/ds/symlink/lm35.pdf
 <p>pin: the analog pin (A0-A6) on which to reveive temperature information</p>
 
 ================================================================================
-LM35DZ: getKelvin
+# LM35DZ: getKelvin
 Description
 Return a float that represents the temperature in Kelvin
 
