@@ -40,7 +40,7 @@ a float that represents the temperature in Farenheit
 ================================================================================
 # Example
 
-#include &gt;LM35DZ.h&lt;
+&#35;include &lt;LM35DZ.h&gt;
 
 LM35DZ lm35dz(A0);
 
