@@ -8,14 +8,14 @@ Datasheet : http://www.ti.com/lit/ds/symlink/lm35.pdf
 # Description
 A call to LM35DZ(pin) creates a new LM35DZ object.
 # Parameters
-- pin: the analog pin (A0-A6) on which to reveive temperature information
+pin: the analog pin (A0-A6) on which to reveive temperature information
 
 ================================================================================
 # LM35DZ: getKelvin
 # Description
 Return a float that represents the temperature in Kelvin
 # Parameters
-- none
+[none]
 # Returns
 a float that represents the temperature in Kelvin
 
@@ -24,7 +24,7 @@ a float that represents the temperature in Kelvin
 # Description
 Return a float that represents the temperature in Celsius
 # Parameters
-- none
+[none]
 # Returns
 a float that represents the temperature in Celsius
 
@@ -33,7 +33,7 @@ a float that represents the temperature in Celsius
 # Description
 Return a float that represents the temperature in Farenheit
 # Parameters
-- none
+[none]
 # Returns
 a float that represents the temperature in Farenheit
 
