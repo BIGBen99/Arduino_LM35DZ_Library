@@ -4,11 +4,11 @@ Arduino library for LM35DZ temperature sensor
 Datasheet : http://www.ti.com/lit/ds/symlink/lm35.pdf
 
 ================================================================================
-<h1>LM35DZ(pin)</h1>
-<h2>Description</h2>
-<p>A call to LM35DZ(pin) creates a new LM35DZ object.</p>
-<h2>Parameters</h2>
-<p>pin: the analog pin (A0-A6) on which to reveive temperature information</p>
+# LM35DZ(pin)
+# Description
+A call to LM35DZ(pin) creates a new LM35DZ object.
+# Parameters
+pin: the analog pin (A0-A6) on which to reveive temperature information
 
 ================================================================================
 # LM35DZ: getKelvin
