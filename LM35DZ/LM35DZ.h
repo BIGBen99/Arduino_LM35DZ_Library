@@ -13,9 +13,9 @@
 class LM35DZ {
   public:
     LM35DZ(int pin);
-	float getKelvin();
-	float getCelcius();
-	float getFahrenheit();
+    float getKelvin();
+    float getCelcius();
+    float getFahrenheit();
   private:
     int _pin;
 };
