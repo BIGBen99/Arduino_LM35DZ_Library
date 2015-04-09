@@ -6,7 +6,7 @@ Datasheet : http://www.ti.com/lit/ds/symlink/lm35.pdf
 ================================================================================
 LM35DZ(pin)
 Description
-A call to LM35DZ(pin) creates a new SoftwareSerial object.
+A call to LM35DZ(pin) creates a new LM35DZ object.
 
 Parameters
 pin: the analog pin (A0-A6) on which to reveive temperature information
