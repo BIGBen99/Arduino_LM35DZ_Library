@@ -1,21 +1,21 @@
-#include <LM35DZ.h>
+#include <LM35.h>
 
-LM35DZ lm35dz(A0);
+LM35 lm35(A0);
 
 void setup() {
   Serial.begin(9600);
 }
 
 void loop() {
-  Serial.println("Temperature with LM35DZ sensor");
+  Serial.println("Temperature with LM35 sensor");
   Serial.print("Temperature : ");
-  Serial.print(lm35dz.getKelvin());
+  Serial.print(lm35.getKelvin());
   Serial.println(" K");
   Serial.print("Temperature : ");
-  Serial.print(lm35dz.getCelcius());
+  Serial.print(lm35.getCelcius());
   Serial.println(" C");
   Serial.print("Temperature : ");
-  Serial.print(lm35dz.getFahrenheit());
+  Serial.print(lm35.getFahrenheit());
   Serial.println(" F");
   Serial.println("--------------------");
   delay(5000);
