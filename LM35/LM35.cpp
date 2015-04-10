@@ -1,5 +1,5 @@
 /*
-  lm35.cpp - Library for LM35 sensor.
+  LM35.cpp - Library for LM35 sensor.
   Created by Benoit Didry, January 31, 2015.
   Released into the public domain.
 */
