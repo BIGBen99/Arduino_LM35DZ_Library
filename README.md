@@ -8,7 +8,7 @@ Datasheet : http://www.ti.com/lit/ds/symlink/lm35.pdf
 # Description
 A call to LM35DZ(pin) creates a new LM35DZ object.
 # Parameters
-pin: the analog pin (A0-A6) on which to reveive temperature information
+pin: the analog pin (A0-A6) on which to receive temperature information
 
 ================================================================================
 # LM35DZ: getKelvin
