@@ -25,5 +25,5 @@ float LM35::getCelcius() {
 float LM35::getFahrenheit() {
   analogRead(_pin);
   delay(10);
-  return analogRead(_pin) * 300.0 / 341.0 + 32; 
+  return analogRead(_pin) * 300.0 / 341.0 + 32.0; 
 }
