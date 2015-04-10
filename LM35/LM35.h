@@ -1,18 +1,16 @@
 /*
-  LM35DZ.h - Library for LM35DZ sensor.
+  LM35.h - Library for LM35 sensor.
   Created by Benoit Didry, January 31, 2015.
   Released into the public domain.
-  
-  20150203 : remove getTemperature method and add getKelvin, getCelcius, getFahrenheit
 */
-#ifndef LM35DZ_h
-#define LM35DZ_h
+#ifndef LM35_h
+#define LM35_h
 
 #include "Arduino.h"
 
-class LM35DZ {
+class LM35 {
   public:
-    LM35DZ(int pin);
+    LM35(int pin);
     float getKelvin();
     float getCelcius();
     float getFahrenheit();
