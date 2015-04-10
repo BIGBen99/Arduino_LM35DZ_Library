@@ -15,15 +15,18 @@ LM35DZ::LM35DZ(int pin) {
 
 float LM35DZ::getKelvin() {
   analogRead(_pin);
+  delay(10);
   return analogRead(_pin) * 500.0 / 1023.0 + 273.15; 
 }
 
 float LM35DZ::getCelcius() {
   analogRead(_pin);
- return analogRead(_pin) * 500.0 / 1023.0;
+  delay(10);
+  return analogRead(_pin) * 500.0 / 1023.0;
 }
 
 float LM35DZ::getFahrenheit() {
   analogRead(_pin);
+  delay(10);
   return analogRead(_pin) * 300.0 / 341.0 + 32; 
 }
