@@ -13,29 +13,29 @@ pin: the analog pin (A0-A6) on which to reveive temperature information
 ================================================================================
 # LM35DZ: getKelvin
 # Description
-Return a float that represents the temperature in Kelvin
+Return a float that represents temperature in Kelvin
 # Parameters
 [none]
 # Returns
-a float that represents the temperature in Kelvin
+a float that represents temperature in Kelvin
 
 ================================================================================
 # LM35DZ: getCelcius
 # Description
-Return a float that represents the temperature in Celsius
+Return a float that represents temperature in Celsius
 # Parameters
 [none]
 # Returns
-a float that represents the temperature in Celsius
+a float that represents temperature in Celsius
 
 ================================================================================
 # LM35DZ: getFahrenheit
 # Description
-Return a float that represents the temperature in Farenheit
+Return a float that represents temperature in Farenheit
 # Parameters
 [none]
 # Returns
-a float that represents the temperature in Farenheit
+a float that represents temperature in Farenheit
 
 ================================================================================
 # Example
