@@ -1,7 +1,7 @@
 # Arduino_LM35_Library
 Arduino library for LM35 temperature sensor
 
-Datasheet : http://www.ti.com/lit/ds/symlink/lm35.pdf
+Datasheet : https://www.ti.com/lit/ds/symlink/lm35.pdf
 
 ===========================================================================
 # LM35(pin)
